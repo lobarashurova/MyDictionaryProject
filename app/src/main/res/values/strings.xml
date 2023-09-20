@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    <string name="uzbek_english">UZBEK-ENGLISH</string>
+    <string name="english_uzbek">ENGLISH-UZBEK</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Dictionary App</string>
+    <string name="nav_header_subtitle">Tools with Dictionary</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="about">That mobile app should be used in order to translate english words into uzbek. In terms of screens, totally, it consists of three layouts. They are:main screen with navigation menu, WordListActivity with SearchView and WordPresenterActivity showing the translations of words. Also DrawerMenu includes 4 frames to go through another activities. If you find some mistakes in that app or you have some ideas to change, you can contact with that account @PrincessaLo  </string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

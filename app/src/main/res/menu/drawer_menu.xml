@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        >
+
+    <item
+        android:id="@+id/to_contact"
+        android:icon="@drawable/follower"
+        android:title="To contact"
+        />
+    <item
+        android:id="@+id/about_us"
+        android:icon="@drawable/about"
+        android:title="About us" />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/app"
+        android:title="More projects" />
+    <item
+        android:id="@+id/sharing"
+        android:icon="@drawable/shre"
+        android:title="Sharing project" />
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/exit"
+        android:title="exit" />
+    </group>
+</menu>

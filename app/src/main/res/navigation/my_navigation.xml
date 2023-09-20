@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/favouritesFragment"
+        tools:layout="@layout/activity_favourites"
+        android:name="uz.gita.mydictionaryproject.pages.FavouritesFragment"
+        android:label="FavouritesFragment" >
+        <action
+            android:id="@+id/action_favouritesFragment_to_meaningWrodFragment"
+            app:destination="@id/meaningWrodFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/meaningWrodFragment"
+        tools:layout="@layout/dialog_word"
+        android:name="uz.gita.mydictionaryproject.pages.MeaningWordFragment"
+        android:label="MeaningWrodFragment" />
+    <fragment
+        android:id="@+id/splashFragment"
+        tools:layout="@layout/activity_splash"
+        android:name="uz.gita.mydictionaryproject.pages.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.gita.mydictionaryproject.pages.HomeFragment"
+        tools:layout="@layout/fragment_main"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_meaningWrodFragment"
+            app:destination="@id/meaningWrodFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_favouritesFragment"
+            app:destination="@id/favouritesFragment" />
+    </fragment>
+</navigation>
